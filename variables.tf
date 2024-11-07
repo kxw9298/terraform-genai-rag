@@ -24,6 +24,10 @@ variable "project_id" {
   description = "Google Cloud Project ID"
 }
 
+variable "google_credentials" {
+  description = "Base64-encoded Google Cloud credentials JSON"
+}
+
 variable "region" {
   type        = string
   description = "Google Cloud Region"
